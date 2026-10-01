@@ -1,0 +1,152 @@
+# Install and Configure the Authenticator App Extension in Microsoft Edge
+
+## Overview
+
+This guide explains how to:
+
+1. Install the **Authenticator App** extension from the Chrome Web Store.
+2. Enable the extension in Microsoft Edge.
+3. Pin the extension to the Edge toolbar.
+4. Add a new account to the extension.
+
+The extension is available from:
+
+- [Authenticator App - Chrome Web Store](https://chromewebstore.google.com/detail/authenticator-app/bbphmbmmpomfelajledgdkgclfekilei)
+
+The extension generates Time-based One-Time Passwords (TOTP) and can scan QR codes directly from web pages. 【1-a5a3f1】
+
+---
+
+# Part 1: Install the Authenticator App Extension
+
+## Step 1: Open Microsoft Edge
+
+1. Launch **Microsoft Edge**.
+2. Ensure you are signed in with the appropriate profile if required.
+
+## Step 2: Open the Chrome Web Store Page
+
+1. In Edge, browse to:
+   - [Authenticator App Extension](https://chromewebstore.google.com/detail/authenticator-app/bbphmbmmpomfelajledgdkgclfekilei)
+2. Review the extension details and publisher information. The extension is listed as **Authenticator app**. 【1-a5a3f1】
+
+## Step 3: Allow Chrome Extensions (If Prompted)
+
+If this is your first Chrome Web Store extension:
+
+1. Edge may display a banner stating that extensions from other stores are blocked.
+2. Select **Allow extensions from other stores**.
+3. Select **Allow** to confirm.
+
+## Step 4: Install the Extension
+
+1. Select **Add to Chrome** on the Chrome Web Store page.
+2. When prompted by Edge, select **Add Extension**.
+3. Wait for the installation to complete.
+
+A confirmation message will appear when the extension has been successfully installed.
+
+---
+
+# Part 2: Enable the Extension in Edge
+
+## Step 1: Open the Extensions Menu
+
+1. Select the **Extensions** icon in the Edge toolbar.
+   - It appears as a puzzle-piece icon near the address bar.
+
+Alternatively:
+
+1. Select the **Settings and More** menu (**...**).
+2. Select **Extensions**.
+3. Select **Manage Extensions**.
+
+## Step 2: Verify the Extension is Enabled
+
+1. Locate **Authenticator App** in the list of installed extensions.
+2. Confirm the toggle is set to **On**.
+
+If it is disabled:
+
+1. Turn the toggle **On**.
+2. Close the Extensions page.
+
+---
+
+# Part 3: Pin the Extension to the Edge Toolbar
+
+## Step 1: Open the Extensions Menu
+
+1. Select the **Extensions** icon on the toolbar.
+
+## Step 2: Pin the Extension
+
+1. Locate **Authenticator App**.
+2. Select the **Pin** icon next to the extension.
+
+## Result
+
+The Authenticator App icon will now be permanently visible on the Edge toolbar, making it easy to access authentication codes.
+
+---
+
+# Part 4: Add a New Account to the Authenticator App
+
+## Option 1: Add an Account Using a QR Code
+
+This is the most common method.
+
+### Step 1: Start the Account Registration Process
+
+1. Navigate to the website or service that is enabling Multi-Factor Authentication (MFA).
+2. Choose the option to use an **Authenticator App**.
+3. Display the QR code provided by the service.
+
+### Step 2: Open the Extension
+
+1. Select the **Authenticator App** icon from the Edge toolbar.
+
+### Step 3: Add a New Entry
+
+1. Select **Add Account**, **Add**, or the **+** button (depending on the extension version).
+2. Choose the option to scan or import a QR code.
+
+### Step 4: Capture the QR Code
+
+If the extension offers QR scanning:
+
+1. Select the scan option.
+2. Click the displayed QR code on the webpage.
+
+The extension will import the account details and create a new TOTP entry.
+
+### Step 5: Verify the Registration
+
+1. A six-digit code should appear in the extension.
+2. Enter the displayed code into the website's MFA registration page.
+3. Select **Verify**, **Continue**, or **Finish**.
+
+The account is now registered.
+
+---
+
+## Option 2: Add an Account Manually
+
+Use this method when the service provides a setup key instead of a QR code.
+
+### Step 1: Obtain the Secret Key
+
+1. On the MFA setup page, select:
+   - **Can't scan?**
+   - **Manual setup**
+   - **Enter key manually**
+   
+   (wording varies by service)
+
+2. Copy the secret key provided.
+
+### Step 2: Open the Extension
+
+1. Select the **Authenticator App** icon.
+
+##

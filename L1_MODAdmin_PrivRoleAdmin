@@ -1,0 +1,150 @@
+# Permanently Assign the Privileged Role Administrator Role to MOD Administrator
+
+## Overview
+
+This procedure assigns the **Privileged Role Administrator** role as an **Active** assignment to the user account **MOD Administrator** by accessing the user account directly in the Microsoft Entra admin centre.
+
+> **Note:** Active assignments provide the role's permissions immediately and continuously. Microsoft recommends using the principle of least privilege and considering eligible assignments through Privileged Identity Management (PIM) where appropriate. 【1-7cdfc9】
+
+## Prerequisites
+
+Before proceeding:
+
+- You are already logged into the Microsoft Entra admin centre.
+- Your account has sufficient permissions to assign Microsoft Entra roles (for example, Global Administrator or Privileged Role Administrator). 【1-7cdfc9】【2-78924c】
+- The **MOD Administrator** user account already exists in the tenant.
+
+---
+
+# Step 1: Open the Users Blade
+
+1. In the left navigation menu, select **Identity**.
+2. Select **Users**.
+3. Select **All Users**.
+
+---
+
+# Step 2: Locate the MOD Administrator Account
+
+1. In the search box, enter:
+
+   ```text
+   MOD Administrator
+   ```
+
+2. Select the **MOD Administrator** user account from the results.
+
+The user profile page opens.
+
+---
+
+# Step 3: Open Assigned Roles
+
+1. From the menu on the left side of the user profile, select **Assigned roles**.
+2. Review any existing role assignments if required.
+
+---
+
+# Step 4: Start the Role Assignment
+
+1. Select **Add assignments**. 【1-7cdfc9】
+2. The role assignment wizard opens.
+
+---
+
+# Step 5: Select the Role
+
+1. In the role list, search for:
+
+   ```text
+   Privileged Role Administrator
+   ```
+
+2. Select **Privileged Role Administrator**.
+3. Select **Next**. 【1-7cdfc9】
+
+---
+
+# Step 6: Configure the Assignment Type
+
+1. On the **Assignment type** page, select:
+
+   ```text
+   Active
+   ```
+
+   rather than:
+
+   ```text
+   Eligible
+   ```
+
+2. Confirm that the role will be active immediately once assigned. 【1-7cdfc9】
+
+---
+
+# Step 7: Configure the Assignment Duration
+
+1. Select the option for:
+
+   ```text
+   Permanently Active
+   ```
+
+   if available in your tenant licensing configuration.
+
+2. If a start date is displayed, leave the default value unless a future activation date is required.
+
+3. If a justification field is present, enter an appropriate business justification, for example:
+
+   ```text
+   Permanent assignment required for identity administration and role management responsibilities.
+   ```
+
+---
+
+# Step 8: Review the Assignment
+
+Verify the following settings:
+
+| Setting | Value |
+|----------|----------|
+| User | MOD Administrator |
+| Role | Privileged Role Administrator |
+| Assignment Type | Active |
+| Duration | Permanent |
+
+---
+
+# Step 9: Complete the Assignment
+
+1. Select **Assign**. 【1-7cdfc9】
+2. Wait for the confirmation message indicating that the role assignment was successful.
+
+---
+
+# Step 10: Verify the Assignment
+
+1. Remain on the **Assigned roles** page.
+2. Select the **Active assignments** tab if necessary.
+3. Confirm that **Privileged Role Administrator** appears as an active role assignment for **MOD Administrator**. 【1-7cdfc9】
+
+---
+
+# Expected Result
+
+The **MOD Administrator** account now has a permanent **Active** assignment for the **Privileged Role Administrator** role.
+
+The account can immediately perform privileged identity and role management tasks, including managing Microsoft Entra role assignments and Privileged Identity Management (PIM) configurations. 【3-700063】
+
+## Administrative Validation
+
+To confirm the role assignment:
+
+1. Navigate to **Identity** → **Users**.
+2. Open **MOD Administrator**.
+3. Select **Assigned roles**.
+4. Verify that:
+   - **Privileged Role Administrator** is listed.
+   - The assignment appears under **Active assignments**.
+   - The assignment is configured as 

@@ -1,0 +1,79 @@
+# Create a Temporary Access Pass (TAP) for Adele Vance (Valid for 3 Hours, Multiple Sign-ins)
+
+## Prerequisites
+
+Before you begin:
+
+- You are already signed in to the Microsoft Entra admin centre.
+- Temporary Access Pass has been enabled as an authentication method in your tenant.
+- Adele Vance is permitted to use Temporary Access Passes through the applicable authentication methods policy.
+
+## Procedure
+
+### 1. Open the Microsoft Entra Admin Centre
+
+1. In the left navigation pane, select **Identity**.
+2. Select **Users**.
+3. Search for and select **Adele Vance**.
+
+### 2. Open Authentication Methods
+
+1. In Adele's user profile, select **Authentication methods**.
+2. Locate the **Temporary Access Pass** section.
+3. Select **Add Temporary Access Pass**.
+
+### 3. Configure the Temporary Access Pass
+
+Configure the following settings:
+
+| Setting | Value |
+|----------|---------|
+| Activation time | Immediately (or leave default) |
+| Lifetime | **3 Hours** |
+| One-time use | **No** |
+| Usability | **Multiple sign-ins permitted during the validity period** |
+
+> **Important:** Setting **One-time use** to **No** allows Adele to use the Temporary Access Pass multiple times while it remains valid.
+
+### 4. Generate the Temporary Access Pass
+
+1. Select **Add** or **Create** to generate the Temporary Access Pass.
+2. The Temporary Access Pass value will be displayed.
+
+### 5. Record the Temporary Access Pass
+
+> ⚠️ **Important - Record the TAP Now**
+>
+> The Temporary Access Pass value is displayed only when it is created. After you close the dialog box, you may not be able to view the complete passcode again.
+
+Before closing the window:
+
+- Copy the Temporary Access Pass.
+- Paste it into your approved secure location (for example, a secure password vault, ticketing system, or approved administrative record).
+- Verify that the pass has been recorded correctly.
+- Only proceed once you have confirmed the passcode has been safely captured.
+
+### 6. Close the Dialog
+
+1. After the Temporary Access Pass has been securely recorded, select **Close**.
+2. Provide the Temporary Access Pass to Adele using an approved secure communication method.
+
+### 7. Confirm the Configuration
+
+1. Verify that a Temporary Access Pass is listed under Adele's authentication methods.
+2. Confirm that the pass shows:
+   - A validity period of **3 hours**.
+   - **Multiple-use** capability (not one-time use).
+   - An expiry time that meets your requirements.
+
+## Result
+
+Adele Vance now has a Temporary Access Pass that:
+
+- Is valid for **3 hours**.
+- Can be used for **multiple sign-ins** during the validity period.
+- Can be used to register authentication methods or regain access to the account as permitted by your organisation's policies.
+
+## Administrative Reminder
+
+Always ensure the generated Temporary Access Pass is securely recorded **before closing the creation dialog**, as the passcode may not be recoverable afterwards and would need to be regenerated if lost.
